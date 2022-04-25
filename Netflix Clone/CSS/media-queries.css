@@ -1,0 +1,39 @@
+/* __Responsive__ */
+@media screen and (max-width: 620px)
+{
+    header
+    {
+        font-size: 0.6em;
+    }
+    header #content p
+    {
+        font-size: 1.3em;
+    }
+    header #content form label .form-control
+    {
+        padding: 1.5em;
+        width: 250px;
+    }
+    header #content form label button
+    {
+        width: 100px;
+        height: 5.5vh;
+    }
+    #item .container .col-lg-6 img
+    {
+        margin-top: 3em;
+    }
+    .faq #address
+    {
+        padding-left: 0.5em;
+    }
+    .faq .container form label .form-control
+    {
+        padding: 1.5em;
+        width: 250px;
+    }
+    .faq .container form label button
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,299 @@
+/* __Designed_by_Learning_Code's__ */
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*::selection
+{
+    background-color: #ef0c0c;
+    color: #ffffff;
+}
+/* __Variables__ */
+:root
+{
+    --title-option: #ffffff;
+    --option-text: #f1f1f1;
+    --btn-bgcolor: #ef0c0c;
+    --btn-color: #ffffff;
+}
+html
+{
+    background-color: rgba(0, 0, 0, 0.965);
+}
+/* __body__ */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/* __Header__ */
+header
+{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), 
+    url('../Img/img (1).jpg');
+    border-bottom: 8px solid #343434;
+}
+/* __Navbar__ */
+header #navigation
+{
+    padding: 1em;
+    background: transparent;
+    border: none;
+}
+header #navigation #menu
+{
+    border: none;
+    animation: zoomIn 1s;
+}
+header #navigation #menu:hover
+{
+    background-color: transparent;
+}
+header #navigation #menu:focus
+{
+    background-color: transparent;
+}
+header #navigation .navbar-brand
+{
+    color: #d00909;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+header #navigation .navbar-collapse .btn-default
+{
+    background-color: var(--btn-bgcolor);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+}
+header #content
+{
+    padding: 8em 8em;
+}
+header #content h1
+{
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    line-height: -1;
+}
+header #content h3
+{
+    color: #fff;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 2;
+}
+header #content p
+{
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header #content #address
+{
+    padding-left: 5em;
+}
+header #content #mail
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+}
+header #content form label .col-lg-12
+{
+    display: flex;
+}
+header #content form label .form-control
+{
+    padding: 2.2em;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    outline: none;
+    justify-content: center;
+    margin-block-end: 2.2em;
+    width: 460px;
+}
+header #content form label .form-control::placeholder
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+header #content form label button
+{
+    background-color: var(--btn-bgcolor);
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 8vh;
+    width: 175px;
+    margin-left: 0.1em;
+    border-radius: 0;
+    font-size: 1.4em;
+    font-weight: lighter;
+    font-size: 1.6em;
+}
+/* __Article__ */
+#item
+{
+    padding-top: 3em;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 8px solid #343434;
+
+}
+#item .container
+{
+    padding: 4em;
+}
+#item .container h2
+{
+    color: var(--title-option);
+    font-size: 3.2em;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+#item .container h4
+{
+    color: var(--option-text);
+    font-size: 1.8em;
+}
+#item .container img
+{
+    margin-top: -6em;
+}
+/* __FAQ__ */
+.faq h1
+{
+    color: #fff;
+    font-size: 3.4em;
+    text-align: center;
+    font-weight: bold;
+}
+.faq .container #area
+{
+    background-color: #343434;
+    color: #fff;
+    padding: 0.1em;
+    display: flex;
+    margin: 0.6em;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
+.faq .container #area .col-lg-6 span
+{
+    float: right;
+    font-size: 3em;
+    font-weight: lighter;
+}
+.faq .container #area h3
+{
+    padding: 0.6em;
+}
+.faq .container #reponses
+{
+    background-color: #343434;
+    color: #fff;
+    padding: 0.1em;
+    display: flex;
+    margin: 0.6em;
+    margin-top: -0.5em;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    cursor: pointer;
+    height: 25vh;
+    display: none;
+}
+.faq .container #reponses p
+{
+    text-align: left;
+    padding: 0.8em;
+}
+.faq p
+{
+    color: #fff;
+    font-size: 1.3em;
+    text-align: center;
+}
+.faq #address
+{
+    padding-left: 25em;
+}
+.faq .container #mail
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+}
+.faq .container form label .col-lg-12
+{
+    display: flex;
+}
+.faq .container form label .form-control
+{
+    padding: 2.2em;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    outline: none;
+    justify-content: center;
+    width: 460px;
+}
+.faq .container form label .form-control::placeholder
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.faq .container form label button
+{
+    background-color: var(--btn-bgcolor);
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 8vh;
+    width: 175px;
+    margin-left: 0.1em;
+    border-radius: 0;
+    font-size: 1.4em;
+    font-weight: lighter;
+    font-size: 1.6em;
+}
+/* __Footer__ */
+footer
+{
+    background-color: rgb(0, 0, 0);
+    padding-top: 5em;
+}
+footer .container .col-lg-3:nth-child(2),
+footer .container .col-lg-3:nth-child(3),
+footer .container .col-lg-3:nth-child(4)
+{
+    margin-top: 5em;
+}
+footer .container .col-lg-3 ul li
+{
+    list-style: none;
+    margin: 14px;
+}
+footer .container .col-lg-3 ul li a
+{
+    color: gray;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in 0s;
+}
+footer .container .col-lg-3 ul li a:hover
+{
+    text-decoration: none;
+}
